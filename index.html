@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Fitness Gym</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url('img/back.jpg');
+            font-family: 'Baloo Bhaijaan 2', cursive;
+
+        }
+
+        .left {
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            left: 34px;
+            top: 20px;
+
+
+        }
+
+        .left img {
+            width: 136px;
+
+
+        }
+
+        .left div {
+            text-align: center;
+            line-height: 19px;
+            font-size: 26px;
+        }
+
+        .right {
+            /* border: 2px solid green; */
+            display: inline-block;
+            position: absolute;
+            right: 34px;
+            top: 20px;
+
+
+
+        }
+
+        .mid {
+            /* border: 2px solid yellow; */
+            display: block;
+            width: 36%;
+            margin: 12px auto;
+            top: 25px;
+
+
+
+        }
+
+        .navbar {
+            display: inline-block;
+
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 30px;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 34px 23px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: grey;
+        }
+
+        .btn {
+            font-family: 'Baloo Bhaijaan 2', cursive;
+            margin: 0px 9px;
+            color: white;
+            background-color: black;
+            padding: 4px 14px;
+            border: 2px solid white;
+            border-radius: 10px;
+            font-size: 25px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: rgb(31, 30, 30);
+            text-decoration: underline;
+            text-align: center;
+            border: 3px;
+        }
+
+        .form-group input {
+            text-align: center;
+            display: block;
+            width: 400px;
+            padding: 6px;
+            border: 2px solid black;
+            font-size: 30px;
+            border-radius: 10px;
+            margin: 11px auto;
+            font-family: 'Baloo Bhaijaan 2', cursive;
+
+
+        }
+
+        .container h1 {
+            text-align: center;
+        }
+
+        .container button {
+
+            display: block;
+            width: 25%;
+            margin: 20px auto;
+        }
+
+        .container {
+            border: 5px solid white;
+            margin: 100px 80px;
+            padding: 75px;
+            width: 50%;
+            border-radius: 30px;
+        }
+
+        .weight {
+            font-weight: bolder;
+            font-size: larger;
+        }
+    </style>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap" rel="stylesheet">
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/sym.jpg" alt=""><br>
+            <strong class="weight"> The Physical Fitness</strong>
+        </div><br><br>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active"><strong> Home</strong></a></li>
+                <li><a href="#"><strong>About Us</strong> </a></li>
+                <li><a href="#"><strong> Fitness Calulator</strong></a></li>
+                <li><a href="#"><strong>Contact Us</strong> </a></li>
+            </ul>
+
+
+
+        </div>
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+
+
+        </div>
+
+
+    </header>
+    <div class="container">
+        <h1>JOIN THE BEST GYM OF MUMBAI</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your mobile number">
+            </div>
+            <button class="btn" type="submit"> Submit</button>
+            <button class="btn" type="reset">Reset</button>
+        </form>
+
+    </div>
+
+
+</body>
+
+</html>
